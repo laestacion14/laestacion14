@@ -2209,8 +2209,8 @@ textarea.form-control {
 }
 .special-menu {
     background-image: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.35) 0%,rgba(0, 0, 0, 0.6) 100%), url(..images/content/cpecial-menu-parallax.html);
-    background-image: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.35) 0%,rgba(0, 0, 0, 0.6) 100%), url(../images/content/cpecial-menu-parallax.jpg);
-    background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%,rgba(0, 0, 0, 0.6) 100%), url(../images/content/cpecial-menu-parallax.jpg);
+    background-image: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.35) 0%,rgba(0, 0, 0, 0.6) 100%), url(../images/slide/special.jpg);
+    background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%,rgba(0, 0, 0, 0.6) 100%), url(../images/slide/special.jpg);
   }
   .special-menu .mediaSection-box .section-title-border {
     font-size: 40px;
@@ -2811,8 +2811,8 @@ textarea.form-control {
 
 .testimonials {
   background-image: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(..images/content/testimonials-parallax.html);
-  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/content/testimonials-parallax.jpg);
-  background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/content/testimonials-parallax.jpg);
+  background-image: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/slide/75570.jpg);
+  background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/slide/75570.jpg);
   }
   .testimonials .thumb-section {
     display: inline-block;
@@ -5928,4 +5928,27 @@ color:#c5a86a;
       -ms-flex-direction: column;
       flex-direction: column;
   }
+}
+
+
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:20px;
+  right:20px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+.whatsapp:hover {
+  background-color:#25d366;
+  color:#000;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
 }
