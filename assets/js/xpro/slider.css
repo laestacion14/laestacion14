@@ -67,11 +67,12 @@
 
 .xpro-slider-container .p-intro-box {
   opacity:0;
-  top:25%;
+  top:35%;
   left:0px;
   right:0px;
   margin:auto;
   text-align: center;
+  padding: 2rem;
 }
 
 .xpro-slider-container .p-text-box {

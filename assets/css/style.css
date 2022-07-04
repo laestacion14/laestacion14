@@ -5952,3 +5952,8 @@ color:#c5a86a;
 .whatsapp-icon {
   margin-top:13px;
 }
+.vcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
